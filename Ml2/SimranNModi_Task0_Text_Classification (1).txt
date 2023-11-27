@@ -1,0 +1,13 @@
+Algorithm	        Feature Extractor	Best Parameters				  			Accuracy
+Multinomial Naive Bayes	CountVectorizer		{'alpha': 0.01}						0.8842244807777286
+Multinomial Naive Bayes	Word2Vec		{'alpha': 0.01}						0.1780821917808219
+Multinomial Naive Bayes	Doc2Vec			{'alpha': 0.01}						0.5877154220061864
+Logistic Regression	CountVectorizer		{'C': 0.1}						0.8727353071144498
+Logistic Regression	Word2Vec	        {'C': 10.0}						0.3588157313300928
+Logistic Regression	Doc2Vec			{'C': 1.0}						0.6747680070702607
+Support Vector Machine	CountVectorizer		{'C': 0.1, 'gamma': 'scale', 'kernel': 'linear'}	0.827220503756076
+Support Vector Machine	Word2Vec		{'C': 10.0, 'gamma': 'scale', 'kernel': 'linear'}	0.4334953601414052
+Support Vector Machine	Doc2Vec			{'C': 10.0, 'gamma': 'scale', 'kernel': 'rbf'}		0.691117984975696
+Decision Tree		CountVectorizer		{'max_depth': None, 'min_samples_split': 5}		0.6517896597437031
+Decision Tree		Word2Vec		{'max_depth': 10, 'min_samples_split': 5}		0.1780821917808219
+Decision Tree		Doc2Vec			{'max_depth': 10, 'min_samples_split': 2}		0.3605832965090588
